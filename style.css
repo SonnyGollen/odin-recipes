@@ -52,7 +52,21 @@ div {
     height: 300px;
 }
 
+.recipe-collections-heading {
+    height: 75px;
+    border-style: none;
+}
 
 div p a {
     color: white;
 }
+
+.food-image {
+    border-style: none;
+}
+
+.food-image a img {
+    object-fit: cover;
+}
+
+
