@@ -41,7 +41,10 @@ div {
 }
 
 .recipe01, .recipe02, .recipe03 {
+    position: relative;
+    overflow: auto;
     display: inline-block;
+    top: 0px;
     margin: 5px;
     border-style: solid;
     border-color: #3A3F41;
