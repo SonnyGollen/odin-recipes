@@ -14,6 +14,18 @@ h1 {
     border-color: #3A3F41;
 }
 
+h2 {
+    font-size: larger;
+    color: white;
+}
+
+h3 {
+    font-size: large;
+    color: white;
+    text-align: left;
+    margin: 0px, 0px, 0px, 200px;
+}
+
 .navbar {
     padding: 5px 5px 9px 5px;
 }
@@ -35,9 +47,13 @@ div {
     color: white;
 }
 
-.recipe-collections {
+.main-content {
     border-style: solid;
     border-color: #3A3F41;
+}
+
+.sub-content {
+    border-style: hidden;
 }
 
 .recipe01, .recipe02, .recipe03 {
@@ -69,4 +85,30 @@ div p a {
     object-fit: cover;
 }
 
+div .description {
+    border-width: 1px 0px;
+    padding: 0px 50px;
+    margin: 0px 0px 30px;
+    text-align: start;
+}
 
+div .ingredients {
+    border-width: 0px 0px;
+    padding: 0px 50px;
+    margin: 0px 0px 30px;
+    text-align: start;
+}
+
+div .steps {
+    border-width: 1px 0px 0px;
+    padding: 0px 50px;
+    margin: 0px 0px 30px;
+    text-align: start;
+}
+
+div .tips {
+    border-width: 1px 0px 0px;
+    padding: 0px 50px;
+    margin: 0px 0px 30px;
+    text-align: start;
+}
